@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevJournal Bootstrap Template</title>
+    <link href="assets/fonts/fontawesome-6.7.2/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar py-4 navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <!-- Brand/Logo -->
+            <a class="navbar-brand fw-bold" href="index.html">
+                DevJournal
+            </a>
+            <!-- Toggle Button for Mobile View -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Post Content -->
+                <div class="col-lg-7">
+                    <h1 class="display-4 fw-bold">Understanding Asynchronous JavaScript</h1>
+                    <p class="lead text-muted">
+                        Dive deep into the world of promises, async/await, and event loops to write more efficient JavaScript code.
+                    </p>
+                    <a href="#" class="btn btn-primary btn-lg mt-3">Read More</a>
+                </div>
+                <!-- Post Image -->
+                <div class="col-lg-5 text-center">
+                    <img src="https://www.dummyimage.co.uk/?size=600x450" alt="Post Thumbnail" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Post Content -->
+    <section class="post-content py-5">
+        <div class="container">
+            <div class="content">
+                <p>
+                    When designing a blog, responsiveness is a key feature. Modern users access websites 
+                    on a variety of devices, so your blog must look great on mobile, tablet, and desktop screens. 
+                    Bootstrap provides a grid system, pre-designed components, and utility classes that help achieve this seamlessly.
+                </p>
+                <p>
+                    To start, include the Bootstrap CSS and JavaScript files in your project. Then, create your HTML structure 
+                    using the Bootstrap grid system for layout and components like cards, buttons, and navbars for interactivity.
+                </p>
+                <h3>Benefits of Using Bootstrap</h3>
+                <ul>
+                    <li>Pre-designed components save development time.</li>
+                    <li>Responsive grid system ensures a consistent layout across devices.</li>
+                    <li>Extensive documentation and active community support.</li>
+                </ul>
+                <p>
+                    By the end of this tutorial, you’ll have a fully functional blog template ready for deployment. 
+                    Stay tuned for more posts that dive deeper into individual components of Bootstrap!
+                </p>
+
+                <h3>JavaScript Example</h3>
+                <pre class="code-block">
+                    <code>
+                        function greet(name) {
+                            console.log(`Hello, ${name}!`);
+                        }
+                        greet("Developer");
+                    </code>
+                </pre>
+
+                <h3>CSS Example</h3>
+                <pre class="code-block">
+                    <code>
+                        body {
+                            font-family: Arial, sans-serif;
+                            margin: 0;
+                            padding: 0;
+                            background-color: #f4f4f9;
+                        }
+                        h1 {
+                            color: #333;
+                        }
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </section>
+        
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Footer About Section -->
+                <div class="col-md-4 mb-3">
+                    <h5>About DevJournal</h5>
+                    <p>DevJournal is a minimal blog template designed for developers to share knowledge, tutorials, and tips. Created with simplicity and clarity in mind.</p>
+                </div>
+                <!-- Footer Links Section -->
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">Blog</a></li>
+                        <li><a href="#" class="text-white">About</a></li>
+                        <li><a href="#" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Footer Social Media Section -->
+                <div class="col-md-4 mb-3">
+                    <h5>Follow Us</h5>
+                    <div>
+                        <a href="#" class="text-white me-3">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white me-3">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-white me-3">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="text-white">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="text-link">Made with <i class="fa fa-heart"></i> by <a href="https://subashbhattarai.com" target="_blank">Subash Bhattarai</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary rounded-circle" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
