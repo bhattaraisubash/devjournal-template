@@ -1,6 +1,9 @@
 # DevJournal Template  
 A minimal and clean blog template designed for developers to share knowledge, tutorials, and insights. The template is built using **HTML5**, **CSS3**, and **Bootstrap5** for simplicity and elegance.  
 
+## Preview
+![Screenshot Preview](screenshot.jpg)
+
 ## Features  
 - Responsive design, optimized for all devices.  
 - Minimal and aesthetically pleasing UI/UX tailored for developer blogs.  
