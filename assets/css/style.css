@@ -110,7 +110,6 @@ ol li {
 /* Code Blocks */
 pre, code {
     font-family: 'Fira Code', monospace; /* Developer-friendly font */
-    background-color: var(--text-color);
     color: var(--darker-text-color);
     padding: 0.5rem;
     border-radius: 5px;
@@ -517,7 +516,7 @@ button, .btn {
 .footer h5 {
     font-size: 1.3rem;
     font-weight: 600;
-    color: var(--text-color);
+    color: var(--background-color);
     margin-bottom: 20px;
 }
 
